@@ -2,10 +2,10 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "TestTemplate",
   "classifications": [ "Common/Library" ],
-  "identity": "TestTemplate",
+  "identity": "TestTemplate.gitRename",
   "sourceName": "TestTemplate",
   "name": "TestTemplate",
-  "shortName": "test.template",
+  "shortName": "test.template.gitRename",
   "preferNameDirectory": true,
   "symbols": {
     "testName": {
