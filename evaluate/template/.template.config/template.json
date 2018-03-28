@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "TestTemplate",
+  "classifications": [ "Common/Library" ],
+  "identity": "TestTemplate.evaluate",
+  "sourceName": "TestTemplate",
+  "name": "TestTemplate",
+  "shortName": "test.template.evaluate",
+  "preferNameDirectory": true,
+  "symbols": {
+    "name1": {
+      "type": "generated",
+      "generator": "evaluate",
+      "value": "name",
+      "replaces": "Name1"
+    },
+    "name2": {
+     "type": "generated",
+     "generator": "coalesce",
+     "parameters": {
+       "sourceVariableName": "name",
+       "fallbackVariableName": "name"
+     },
+     "replaces": "Name2"
+    },
+    "name3": {
+      "type": "computed",
+      "value": "name",
+      "replaces": "Name3"
+    }
+  }
+}
